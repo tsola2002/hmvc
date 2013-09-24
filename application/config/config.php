@@ -1,4 +1,10 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+/*pointer to modules*/
+$config['modules_locations'] = array(
+    APPPATH.'modules/' => '../modules/',
+);
+
 /**
  * CodeIgniter
  *
