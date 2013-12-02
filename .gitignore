@@ -3,6 +3,7 @@
 application/cache/*
 !application/cache/index.html
 !application/cache/.htaccess
+.idea/workspace.xml
 .idea/*
 
 application/logs/*

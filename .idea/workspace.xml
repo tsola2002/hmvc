@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" name="Default" comment="" />
+    <list default="true" id="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" name="Default" comment="test">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/tasks/views/display.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/tasks/models/mdl_task.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/tasks/controllers/tasks.php" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\hmvc\application\modules\blog\controllers\blog.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\hmvc\application\modules\blog\models\blog_m.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\hmvc\application\modules\blog\views\listing.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/autoload.php" afterPath="$PROJECT_DIR$/application/config/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/database.php" afterPath="$PROJECT_DIR$/application/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="hmvc.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/test.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1380043582298" ignored="false" />
-    <file path="/.htaccess" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1380045922856" ignored="false" />
-    <file path="/Dummy.txt" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1380046138808" ignored="false" />
+    <file path="/.htaccess" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1380048204598" ignored="false" />
+    <file path="/Dummy.txt" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1385979519304" ignored="false" />
+    <file path="/blog.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1385977907629" ignored="false" />
+    <file path="/blog_m.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1380059214020" ignored="false" />
+    <file path="/listing.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1380058955332" ignored="false" />
+    <file path="/.gitignore" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1380060150110" ignored="false" />
+    <file path="/task.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1385978081213" ignored="false" />
+    <file path="/mdl_task.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1385978377002" ignored="false" />
+    <file path="/tasks.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1385978839997" ignored="false" />
+    <file path="/display.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1385979173377" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +44,55 @@
     <favorites_list name="hmvc" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="database.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="87" column="24" selection-start="4030" selection-end="4030" vertical-scroll-proportion="-17.538462">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tasks.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/modules/tasks/controllers/tasks.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="5" selection-start="413" selection-end="413" vertical-scroll-proportion="0.8625337">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="display.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/tasks/views/display.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="42" selection-start="235" selection-end="235" vertical-scroll-proportion="-11.115385">
+              <folding>
+                <element signature="e#6#120#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mdl_task.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/tasks/models/mdl_task.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="7" selection-start="130" selection-end="130" vertical-scroll-proportion="-1.9615384">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autoload.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="40" selection-start="2618" selection-end="2618" vertical-scroll-proportion="-43.153847">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -34,6 +101,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="hmvc" />
+      </map>
+    </option>
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -45,8 +117,20 @@
       <list>
         <option value="$PROJECT_DIR$/application/controllers/test.php" />
         <option value="$PROJECT_DIR$/application/.htaccess" />
-        <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/application/modules/blog/views/listing.php" />
+        <option value="$PROJECT_DIR$/application/modules/blog/models/blog_m.php" />
+        <option value="$PROJECT_DIR$/application/modules/blog/controllers/blog.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/application/config/database.php" />
+        <option value="$PROJECT_DIR$/application/modules/tasks/controllers/blog.php" />
+        <option value="$PROJECT_DIR$/application/modules/tasks/controllers/task.php" />
+        <option value="$PROJECT_DIR$/application/config/autoload.php" />
+        <option value="$PROJECT_DIR$/application/modules/tasks/views/mdl_task.php" />
+        <option value="$PROJECT_DIR$/application/modules/tasks/views/dsiplay.php" />
+        <option value="$PROJECT_DIR$/application/modules/tasks/views/display.php" />
+        <option value="$PROJECT_DIR$/application/modules/tasks/controllers/tasks.php" />
       </list>
     </option>
   </component>
@@ -107,6 +191,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -134,13 +219,23 @@
     </servers>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\hmvc\application\modules\tasks\controllers" />
+      <recent name="C:\xampp\htdocs\hmvc\application\modules" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\hmvc\application\modules\tasks\models" />
+      <recent name="C:\xampp\htdocs\hmvc\application\core" />
+      <recent name="C:\xampp\htdocs\hmvc\application\third_party" />
       <recent name="C:\xampp\htdocs\hmvc" />
     </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
@@ -178,24 +273,24 @@
     <frame x="-8" y="-8" width="1296" height="786" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296355" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.6703645" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19286872" sideWeight="0.6703645" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -261,35 +356,67 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../apache/conf/httpd.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="0" selection-start="5947" selection-end="5947" vertical-scroll-proportion="-9.869416">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="32" selection-start="3337" selection-end="3337" vertical-scroll-proportion="0.49741825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.0929432">
-          <folding />
-        </state>
+        <state line="129" column="0" selection-start="5947" selection-end="5947" vertical-scroll-proportion="-9.869416" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="34" selection-start="211" selection-end="211" vertical-scroll-proportion="0.17555939">
-          <folding />
-        </state>
+        <state line="14" column="34" selection-start="211" selection-end="211" vertical-scroll-proportion="0.17555939" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="96" selection-end="96" vertical-scroll-proportion="0.09497207" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="8" selection-start="332" selection-end="332" vertical-scroll-proportion="0.6851385" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="118" selection-end="118" vertical-scroll-proportion="0.112026356">
+        <state line="20" column="11" selection-start="529" selection-end="529" vertical-scroll-proportion="0.8564232" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="40" selection-start="2618" selection-end="2618" vertical-scroll-proportion="-43.153847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/tasks/models/mdl_task.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="130" selection-end="130" vertical-scroll-proportion="-1.9615384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="24" selection-start="4030" selection-end="4030" vertical-scroll-proportion="-17.538462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/tasks/views/display.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="42" selection-start="235" selection-end="235" vertical-scroll-proportion="-11.115385">
+          <folding>
+            <element signature="e#6#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/tasks/controllers/tasks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="5" selection-start="413" selection-end="413" vertical-scroll-proportion="0.8625337">
           <folding />
         </state>
       </provider>
