@@ -18,4 +18,18 @@
         echo "<h2>" .$row->title. "</h2>";
     }
 
+    echo "<hr>";
+
+    $name = "omatsola";
+
+    //the code below calls another modules functions
+    $this->load->module('nofun', $name);
+    $this->nofun->sayhello($name);
+
+    echo "<hr>";
+
+    //second method of calling other modules
+   // echo Modules::run('nofun/sayhello', $name);
+
+
 ?>
