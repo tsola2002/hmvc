@@ -11,8 +11,7 @@
 
 class Nofun extends  MX_Controller {
 
-    public function __construct()
-    {
+    public function __construct(){
         parent::__construct();
     }
 

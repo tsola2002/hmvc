@@ -13,13 +13,29 @@ class Tasks extends MX_Controller {
     public function __construct()
     {
         parent::__construct();
-        $this->load->model('mdl_task');
+
     }
 
     public function index(){
 
+        $this->load->model('mdl_task');
         $data['query'] = $this->mdl_task->get('priority');
-        $this->load->view('display', $data);
+
+         $data['module'] = "tasks";
+         $data['view_file'] = "display";
+
+        //this code calls the template module frm within the tasks module
+        //tasks module loads another modules view, then passes its data into that view
+        echo Modules::run('template/two_col', $data);
+
+        //$this->load->view('display', $data);
+
+
+
+
+
+
+
     }
 
 
