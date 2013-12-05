@@ -20,7 +20,8 @@ echo anchor('tasks/create', '<p>Create New');
 
 <?php
     foreach ($query->result() as $row){
-        echo "<h2>" .$row->title. "</h2>";
+        $edit_url = base_url().'tasks/create/'. $row->id;
+        echo "<h2>" .$row->title. " &nbsp; <a href='". $edit_url ."'>EDIT</a> </h2>";
     }
 
     echo "<hr>";

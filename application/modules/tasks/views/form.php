@@ -28,5 +28,9 @@
 
     echo form_submit('submit', 'Submit');
 
+    if(isset($update_id)) {
+        echo form_hidden('update_id', $update_id);
+    }
+
     echo form_close();
 ?>

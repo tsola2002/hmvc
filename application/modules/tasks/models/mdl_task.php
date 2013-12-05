@@ -47,7 +47,7 @@ class Mdl_task extends CI_Model {
     function get_where($id){
         $table = $this->get_table();
         $this->db->where('id', $id);
-        $query=$this->db->get($table);
+        $query = $this->db->get($table);
         return $query;
     }
 

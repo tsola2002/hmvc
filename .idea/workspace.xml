@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/tasks/views/form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/autoload.php" afterPath="$PROJECT_DIR$/application/config/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/tasks/views/display.php" afterPath="$PROJECT_DIR$/application/modules/tasks/views/display.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/tasks/views/form.php" afterPath="$PROJECT_DIR$/application/modules/tasks/views/form.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/tasks/models/mdl_task.php" afterPath="$PROJECT_DIR$/application/modules/tasks/models/mdl_task.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/tasks/controllers/tasks.php" afterPath="$PROJECT_DIR$/application/modules/tasks/controllers/tasks.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -14,15 +12,15 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/test.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1380043582298" ignored="false" />
     <file path="/.htaccess" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1380048204598" ignored="false" />
-    <file path="/Dummy.txt" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386237988728" ignored="false" />
+    <file path="/Dummy.txt" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386239191369" ignored="false" />
     <file path="/blog.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1385977907629" ignored="false" />
     <file path="/blog_m.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1380059214020" ignored="false" />
     <file path="/listing.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1380058955332" ignored="false" />
     <file path="/.gitignore" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1380060150110" ignored="false" />
     <file path="/task.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1385978081213" ignored="false" />
     <file path="/mdl_task.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1385978377002" ignored="false" />
-    <file path="/tasks.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386238988845" ignored="false" />
-    <file path="/display.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386177821219" ignored="false" />
+    <file path="/tasks.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386241442734" ignored="false" />
+    <file path="/display.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386239629235" ignored="false" />
     <file path="/nofun.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1385982972125" ignored="false" />
     <file path="/template.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386074546090" ignored="false" />
     <file path="/one_col.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386071764282" ignored="false" />
@@ -31,7 +29,7 @@
     <file path="/base_model.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386156090431" ignored="false" />
     <file path="/base_controller.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386156635731" ignored="false" />
     <file path="/autoload.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386177588318" ignored="false" />
-    <file path="/form.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386179754223" ignored="false" />
+    <file path="/form.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386241048965" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +52,7 @@
       <file leaf-file-name="mdl_task.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/tasks/models/mdl_task.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="10.461538">
+            <state line="49" column="17" selection-start="1008" selection-end="1008" vertical-scroll-proportion="-13.961538">
               <folding />
             </state>
           </provider>
@@ -63,7 +61,28 @@
       <file leaf-file-name="tasks.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/modules/tasks/controllers/tasks.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="1" selection-start="3188" selection-end="3188" vertical-scroll-proportion="0.74626863">
+            <state line="88" column="14" selection-start="2326" selection-end="2326" vertical-scroll-proportion="0.6571429">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/tasks/views/form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="50" selection-start="531" selection-end="531" vertical-scroll-proportion="-13.923077">
+              <folding>
+                <element signature="e#6#117#0" expanded="true" />
+                <marker date="1386241058820" expanded="false" signature="166:176" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="display.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/tasks/views/display.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="5" selection-start="399" selection-end="399" vertical-scroll-proportion="-10.461538">
               <folding />
             </state>
           </provider>
@@ -100,7 +119,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="coding_turbo_boost" />
+        <entry key="$PROJECT_DIR$" value="05_hmvc_CRUD_application" />
       </map>
     </option>
   </component>
@@ -122,21 +141,21 @@
         <option value="$PROJECT_DIR$/application/modules/template/views/three_col.php" />
         <option value="$PROJECT_DIR$/application/modules/COPYTHIS/models/base_model.php" />
         <option value="$PROJECT_DIR$/application/modules/COPYTHIS/controllers/base_controller.php" />
-        <option value="$PROJECT_DIR$/application/modules/tasks/views/display.php" />
-        <option value="$PROJECT_DIR$/application/modules/tasks/views/form.php" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/application/modules/tasks/views/display.php" />
         <option value="$PROJECT_DIR$/application/modules/tasks/models/mdl_task.php" />
+        <option value="$PROJECT_DIR$/application/modules/tasks/views/form.php" />
         <option value="$PROJECT_DIR$/application/modules/tasks/controllers/tasks.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-13" />
+    <option name="x" value="-114" />
+    <option name="y" value="-7" />
     <option name="width" value="812" />
-    <option name="height" value="761" />
+    <option name="height" value="764" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -234,6 +253,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -470,19 +493,24 @@
       <created>1386156856824</created>
       <updated>1386156856824</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="first CRUD insert functionality implemented using hmvc">
+      <created>1386239196841</created>
+      <updated>1386239196841</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-13" width="812" height="761" extended-state="0" />
+    <frame x="-114" y="-7" width="812" height="764" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34210527" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34154353" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31066668" sideWeight="0.65789473" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31066668" sideWeight="0.6584565" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -492,7 +520,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -540,7 +567,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="base models &amp; base controller implemented on the website for reuse" />
+    <option name="LAST_COMMIT_MESSAGE" value="first CRUD insert functionality implemented using hmvc" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -559,6 +586,7 @@
     <MESSAGE value="organ" />
     <MESSAGE value="controlling templates through modules" />
     <MESSAGE value="base models &amp; base controller implemented on the website for reuse" />
+    <MESSAGE value="first CRUD insert functionality implemented using hmvc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -577,11 +605,6 @@
     <entry file="file://$PROJECT_DIR$/application/modules/template/views/two_col.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="4" selection-start="930" selection-end="930" vertical-scroll-proportion="0.4551282" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/tasks/views/display.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="45" selection-start="198" selection-end="198" vertical-scroll-proportion="-3.2692308" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
@@ -619,11 +642,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/tasks/views/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="58" selection-start="186" selection-end="186" vertical-scroll-proportion="0.39884394" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/COPYTHIS/controllers/base_controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="5" selection-start="319" selection-end="1888" vertical-scroll-proportion="-6.3461537">
@@ -642,14 +660,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/tasks/models/mdl_task.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="463" selection-end="463" vertical-scroll-proportion="10.461538">
+        <state line="49" column="17" selection-start="1008" selection-end="1008" vertical-scroll-proportion="-13.961538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/tasks/views/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="50" selection-start="531" selection-end="531" vertical-scroll-proportion="-13.923077">
+          <folding>
+            <element signature="e#6#117#0" expanded="true" />
+            <marker date="1386241058820" expanded="false" signature="166:176" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/tasks/views/display.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="5" selection-start="399" selection-end="399" vertical-scroll-proportion="-10.461538">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/tasks/controllers/tasks.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="1" selection-start="3188" selection-end="3188" vertical-scroll-proportion="0.74626863">
+        <state line="88" column="14" selection-start="2326" selection-end="2326" vertical-scroll-proportion="0.6571429">
           <folding />
         </state>
       </provider>
