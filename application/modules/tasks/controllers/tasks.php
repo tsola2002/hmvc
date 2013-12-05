@@ -14,6 +14,8 @@ class Tasks extends MX_Controller {
     {
         parent::__construct();
 
+
+
     }
 
     public function index(){
@@ -30,12 +32,95 @@ class Tasks extends MX_Controller {
 
         //$this->load->view('display', $data);
 
+    }
 
+    function create(){
+        $data = $this->get_data_from_post();
+        $data['module'] = "tasks";
+        $data['view_file'] = "form";
+        echo Modules::run('template/two_col', $data);
+    }
 
+    function get_data_from_post(){
+        $data['title'] = $this->input->post('title', TRUE);
+        $data['priority'] = $this->input->post('priority', TRUE);
+        return $data;
+    }
 
+    function submit() {
 
+        $this->load->library('form_validation');
+        $this->form_validation->set_rules('title', 'Title', 'required|min_length[3]|xss_clean');
+        $this->form_validation->set_rules('priority', 'priority', 'required|numeric|xss_clean|max_length[2]');
 
+        if ($this->form_validation->run() == FALSE)
+        {
+            $this->create();
+        }
+        else
+        {
 
+            $data = $this->get_data_from_post();
+            $this->_insert($data);
+            redirect('tasks');
+        }
+    }
+
+    function get($order_by){
+        $this->load->model('mdl_task');
+        $query = $this->mdl_task->get($order_by);
+        return $query;
+    }
+
+    function get_with_limit($limit, $offset, $order_by) {
+        $this->load->model('mdl_task');
+        $query = $this->mdl_task->get_with_limit($limit, $offset, $order_by);
+        return $query;
+    }
+
+    function get_where($id){
+        $this->load->model('mdl_task');
+        $query = $this->mdl_task->get_where($id);
+        return $query;
+    }
+
+    function get_where_custom($col, $value) {
+        $this->load->model('mdl_task');
+        $query = $this->mdl_task->get_where_custom($col, $value);
+        return $query;
+    }
+
+    function _insert($data){
+        $this->load->model('mdl_task');
+        $this->mdl_task->_insert($data);
+    }
+
+    function _update($id, $data){
+        $this->load->model('mdl_task');
+        $this->mdl_task->_update($id, $data);
+    }
+
+    function _delete($id){
+        $this->load->model('mdl_task');
+        $this->mdl_task->_delete($id);
+    }
+
+    function count_where($column, $value) {
+        $this->load->model('mdl_task');
+        $count = $this->mdl_task->count_where($column, $value);
+        return $count;
+    }
+
+    function get_max() {
+        $this->load->model('mdl_task');
+        $max_id = $this->mdl_task->get_max();
+        return $max_id;
+    }
+
+    function _custom_query($mysql_query) {
+        $this->load->model('mdl_task');
+        $query = $this->mdl_task->_custom_query($mysql_query);
+        return $query;
     }
 
 

@@ -14,6 +14,11 @@
 <h1>Your Tasks</h1>
 
 <?php
+echo anchor('tasks/create', '<p>Create New');
+
+?>
+
+<?php
     foreach ($query->result() as $row){
         echo "<h2>" .$row->title. "</h2>";
     }
