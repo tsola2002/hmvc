@@ -1,29 +1,30 @@
-<?php
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
  *
  * Package: hmvc
  * Filename: template.php
  * Author: solidstunna101
- * Date: 03/12/13
- * Time: 11:25
+ * Date: 04/12/13
+ * Time: 11:22
  *
  */
 
 class Template extends MX_Controller {
 
-    public function __construct(){
+
+
+    function __construct() {
         parent::__construct();
     }
 
-
-
-    public function two_col($data){
-        $this->load->view('two_col', $data);
+    function admin(){
+        $data['variable'] = "...";
+        $this->load->view('admin', $data);
     }
 
-
-
-
-
+    function public_one_col(){
+        $data['variable'] = "...";
+        $this->load->view('public_one_col', $data);
+    }
 
 }

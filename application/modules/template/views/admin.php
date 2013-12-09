@@ -14,12 +14,12 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Admin Page</title>
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
     <style type="text/css">
         body{
-            background-color: #000080;
+            background-color: #313941;
         }
         #navbar{
             background-color: #ffdddd;
@@ -27,7 +27,7 @@
         }
 
         #content{
-            background-color: #808000;
+
             height: 400px;
         }
     </style>
@@ -35,10 +35,13 @@
 <body>
 <div class="container">
     <div class="jumbotron">
-        ONE COLUMN LAYOUT
+        <h1>Admin Page</h1>
     </div>
     <div class="row">
-        <div id="content" class="col-lg-12">
+        <div id="content" class="col-lg-3 well">
+            Content
+        </div>
+        <div id="content" class=" col-lg-offset-1 col-lg-8 well">
             Content
         </div>
     </div>

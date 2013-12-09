@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/tasks/views/display.php" afterPath="$PROJECT_DIR$/application/modules/tasks/views/display.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/tasks/views/form.php" afterPath="$PROJECT_DIR$/application/modules/tasks/views/form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/tasks/models/mdl_task.php" afterPath="$PROJECT_DIR$/application/modules/tasks/models/mdl_task.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/tasks/controllers/tasks.php" afterPath="$PROJECT_DIR$/application/modules/tasks/controllers/tasks.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/template/controllers/base_controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/template/models/base_model.php" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\hmvc\application\modules\template\views\three_col.php" afterPath="" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\hmvc\application\modules\template\views\one_col.php" afterPath="$PROJECT_DIR$/application/modules/template/views/admin.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\hmvc\application\modules\template\views\two_col.php" afterPath="$PROJECT_DIR$/application/modules/template/views/public_one_col.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/template/controllers/template.php" afterPath="$PROJECT_DIR$/application/modules/template/controllers/template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hmvc.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/test.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1380043582298" ignored="false" />
     <file path="/.htaccess" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1380048204598" ignored="false" />
-    <file path="/Dummy.txt" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386239191369" ignored="false" />
+    <file path="/Dummy.txt" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386592857275" ignored="false" />
     <file path="/blog.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1385977907629" ignored="false" />
     <file path="/blog_m.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1380059214020" ignored="false" />
     <file path="/listing.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1380058955332" ignored="false" />
@@ -22,14 +24,16 @@
     <file path="/tasks.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386241442734" ignored="false" />
     <file path="/display.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386239629235" ignored="false" />
     <file path="/nofun.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1385982972125" ignored="false" />
-    <file path="/template.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386074546090" ignored="false" />
+    <file path="/template.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386593417132" ignored="false" />
     <file path="/one_col.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386071764282" ignored="false" />
     <file path="/dummy.xml" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386071437914" ignored="false" />
     <file path="/two_col.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386075202201" ignored="false" />
     <file path="/base_model.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386156090431" ignored="false" />
-    <file path="/base_controller.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386156635731" ignored="false" />
+    <file path="/base_controller.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386593016998" ignored="false" />
     <file path="/autoload.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386177588318" ignored="false" />
     <file path="/form.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386241048965" ignored="false" />
+    <file path="/admin.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386594545994" ignored="false" />
+    <file path="/public_one_col.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386595405261" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,61 +53,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mdl_task.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/tasks/models/mdl_task.php">
+      <file leaf-file-name="public_one_col.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/modules/template/views/public_one_col.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="17" selection-start="1008" selection-end="1008" vertical-scroll-proportion="-13.961538">
+            <state line="16" column="23" selection-start="218" selection-end="218" vertical-scroll-proportion="0.10493827">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tasks.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/modules/tasks/controllers/tasks.php">
+      <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/template/views/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="14" selection-start="2326" selection-end="2326" vertical-scroll-proportion="0.6571429">
+            <state line="16" column="21" selection-start="216" selection-end="216" vertical-scroll-proportion="-5.230769">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/tasks/views/form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="50" selection-start="531" selection-end="531" vertical-scroll-proportion="-13.923077">
-              <folding>
-                <element signature="e#6#117#0" expanded="true" />
-                <marker date="1386241058820" expanded="false" signature="166:176" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="display.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/tasks/views/display.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="5" selection-start="399" selection-end="399" vertical-scroll-proportion="-10.461538">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/COPYTHIS/models/base_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="302" selection-end="2327" vertical-scroll-proportion="-9.615385">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_controller.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/COPYTHIS/controllers/base_controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="5" selection-start="319" selection-end="1888" vertical-scroll-proportion="-6.3461537">
-              <folding>
-                <element signature="e#75#197#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -119,7 +82,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="05_hmvc_CRUD_application" />
+        <entry key="$PROJECT_DIR$" value="hmvc_CRUD_part2" />
       </map>
     </option>
   </component>
@@ -131,12 +94,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/modules/tasks/controllers/task.php" />
-        <option value="$PROJECT_DIR$/application/modules/tasks/views/mdl_task.php" />
-        <option value="$PROJECT_DIR$/application/modules/tasks/views/dsiplay.php" />
         <option value="$PROJECT_DIR$/application/modules/nofun/controllers/nofun.php" />
         <option value="$PROJECT_DIR$/application/modules/template/views/one_col.php" />
-        <option value="$PROJECT_DIR$/application/modules/template/controllers/template.php" />
         <option value="$PROJECT_DIR$/application/modules/template/views/two_col.php" />
         <option value="$PROJECT_DIR$/application/modules/template/views/three_col.php" />
         <option value="$PROJECT_DIR$/application/modules/COPYTHIS/models/base_model.php" />
@@ -147,15 +106,19 @@
         <option value="$PROJECT_DIR$/application/modules/tasks/models/mdl_task.php" />
         <option value="$PROJECT_DIR$/application/modules/tasks/views/form.php" />
         <option value="$PROJECT_DIR$/application/modules/tasks/controllers/tasks.php" />
+        <option value="$PROJECT_DIR$/application/modules/template/controllers/base_controller.php" />
+        <option value="$PROJECT_DIR$/application/modules/template/controllers/template.php" />
+        <option value="$PROJECT_DIR$/application/modules/template/views/admin.php" />
+        <option value="$PROJECT_DIR$/application/modules/template/views/public_one_col.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-114" />
-    <option name="y" value="-7" />
-    <option name="width" value="812" />
-    <option name="height" value="764" />
+    <option name="x" value="-11" />
+    <option name="y" value="-5" />
+    <option name="width" value="895" />
+    <option name="height" value="760" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -183,7 +146,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -233,30 +195,8 @@
               <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hmvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hmvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -275,119 +215,12 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hmvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hmvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hmvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hmvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="COPYTHIS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hmvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hmvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="COPYTHIS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hmvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hmvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="COPYTHIS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -422,8 +255,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\hmvc\application\modules\tasks\controllers" />
+      <recent name="C:\xampp\htdocs\hmvc\application\modules\template\views" />
+      <recent name="C:\xampp\htdocs\hmvc\application\modules\template\controllers" />
       <recent name="C:\xampp\htdocs\hmvc\application\modules" />
+      <recent name="C:\xampp\htdocs\hmvc\application\modules\tasks\controllers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\hmvc\application\modules\tasks\models" />
@@ -501,16 +336,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-114" y="-7" width="812" height="764" extended-state="0" />
-    <editor active="true" />
+    <frame x="-11" y="-5" width="895" height="760" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34154353" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3570248" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31066668" sideWeight="0.6584565" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30852342" sideWeight="0.6429752" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -520,6 +354,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -592,36 +427,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/modules/template/views/three_col.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="2" selection-start="125" selection-end="125" vertical-scroll-proportion="0.4913295" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/template/controllers/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="42" selection-start="316" selection-end="316" vertical-scroll-proportion="0.5895954" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/template/views/two_col.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="4" selection-start="930" selection-end="930" vertical-scroll-proportion="0.4551282" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="155.23077" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="25" selection-start="1951" selection-end="1951" vertical-scroll-proportion="-38.576923" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/third_party/MX/Loader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="325" column="12" selection-start="9614" selection-end="9614" vertical-scroll-proportion="0.33333334" />
@@ -644,47 +449,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/COPYTHIS/controllers/base_controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="5" selection-start="319" selection-end="1888" vertical-scroll-proportion="-6.3461537">
-          <folding>
-            <element signature="e#75#197#0" expanded="false" />
-          </folding>
+        <state line="68" column="5" selection-start="319" selection-end="1888" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/COPYTHIS/models/base_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="302" selection-end="2327" vertical-scroll-proportion="-9.615385">
+        <state line="23" column="0" selection-start="302" selection-end="2327" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/tasks/models/mdl_task.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="17" selection-start="1008" selection-end="1008" vertical-scroll-proportion="-13.961538">
+        <state line="49" column="17" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/tasks/views/form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="50" selection-start="531" selection-end="531" vertical-scroll-proportion="-13.923077">
-          <folding>
-            <element signature="e#6#117#0" expanded="true" />
-            <marker date="1386241058820" expanded="false" signature="166:176" placeholder="..." />
-          </folding>
+        <state line="31" column="50" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/tasks/views/display.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="5" selection-start="399" selection-end="399" vertical-scroll-proportion="-10.461538">
+        <state line="24" column="5" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/tasks/controllers/tasks.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="14" selection-start="2326" selection-end="2326" vertical-scroll-proportion="0.6571429">
+        <state line="88" column="14" selection-start="2326" selection-end="2326" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/template/models/base_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/template/controllers/base_controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="232" selection-end="232" vertical-scroll-proportion="0.60881543">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/template/controllers/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="41" selection-start="515" selection-end="515" vertical-scroll-proportion="-10.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/template/views/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="21" selection-start="216" selection-end="216" vertical-scroll-proportion="-5.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/template/views/public_one_col.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="23" selection-start="218" selection-end="218" vertical-scroll-proportion="0.10493827">
           <folding />
         </state>
       </provider>
