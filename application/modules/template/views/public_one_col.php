@@ -40,6 +40,27 @@
     <div class="row">
         <div id="content" class="col-lg-12">
             Content
+            <?php
+            //look out for a view file
+                if(!isset($view_file)){
+                    $view_file = "";
+                }
+
+                if(!isset($module)){
+                     $module = $this->uri->segment(1);
+
+                 }
+
+            //look out for a module
+                if(($view_file!="") && ($module!="")){
+                    $path = $module. "/".$view_file;
+                    $this->load->view($path);
+                }
+
+
+
+
+            ?>
         </div>
     </div>
 </div>

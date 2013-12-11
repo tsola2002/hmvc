@@ -21,6 +21,7 @@
         body{
             background-color: #313941;
         }
+
         #navbar{
             background-color: #ffdddd;
             height: 400px;
