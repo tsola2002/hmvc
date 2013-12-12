@@ -20,12 +20,10 @@
     <style type="text/css">
         body{
             background-color: #313941;
+            color: #E9E6E1;
+            font-family: 'Open Sans', sans-serif;
         }
 
-        #navbar{
-            background-color: #ffdddd;
-            height: 400px;
-        }
 
         #content{
 
@@ -35,14 +33,12 @@
 </head>
 <body>
 <div class="container">
-    <div class="jumbotron">
-        <h1>Admin Page</h1>
-    </div>
+
     <div class="row">
-        <div id="content" class="col-lg-3 well">
+        <div id="content" class="col-lg-3">
             Content
         </div>
-        <div id="content" class=" col-lg-offset-1 col-lg-8 well">
+        <div id="content" class=" col-lg-offset-1 col-lg-8">
             Content
         </div>
     </div>

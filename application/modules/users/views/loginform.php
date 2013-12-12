@@ -13,36 +13,20 @@
 <h1>Login Form</h1>
 
 <?php
-echo validation_errors("<p style='color: red;'>", "</p>");
+echo validation_errors("<p>", "</p>");
 ?>
-<div class="col-lg-4">
-    <?php $attributes = array('role' => 'form', 'id' => 'login'); ?>
-    <?php $form_label = array('class' => 'control-label');?>
-    <?php $form_input = array('class' => 'form-control', 'id' => 'username', 'placeholder' => 'Enter Your Username'); ?>
-    <?php $form_password = array('class' => 'form-control', 'id' => 'password', 'placeholder' => 'Enter Your Password'); ?>
-    <?php $form_submit = array('name' => 'submit', 'value' => 'Submit', 'class' => 'btn btn-info'); ?>
-    <?php echo form_open('users/submit', $attributes); ?>
 
-    <div class="form-group">
-        <?php
-            echo form_label('username', 'username');
-            echo form_input($form_input);
-        ?>
+<?php
+    echo form_open('users/submit');
 
-    </div>
+    echo "Username";
+    echo form_input('username', '');
+    echo "<br />";
 
-    <div class="form-group">
-        <?php
-        echo form_label('password', 'password');
-        echo form_password($form_password);
-        ?>
-    </div>
+    echo "Password";
+    echo form_password('pword', '');
+    echo "<br />";
 
-    <?php echo form_submit($form_submit); ?>
-
-    <?php echo form_close(); ?>
-
-
-</div>
-
-
+    echo form_submit('submit', 'Submit');
+    echo form_close();
+?>

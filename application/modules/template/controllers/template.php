@@ -17,14 +17,16 @@ class Template extends MX_Controller {
         parent::__construct();
     }
 
+    function public_one_col($data){
+        //$data['variable'] = "...";
+        $this->load->view('public_one_col', $data);
+    }
+
     function admin($data){
-        $data['variable'] = "...";
+        //$data['variable'] = "...";
         $this->load->view('admin', $data);
     }
 
-    function public_one_col($data){
-        $data['variable'] = "...";
-        $this->load->view('public_one_col', $data);
-    }
+
 
 }

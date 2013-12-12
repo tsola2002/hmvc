@@ -9,7 +9,6 @@
  *
  */
 ?>
-
 <!doctype html>
 <html lang="en-US">
 <head>
@@ -19,47 +18,46 @@
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
     <style type="text/css">
         body{
-            background-color: #000080;
+            background-color: #313941;
+            color: #8e939a;
+            font-family: 'Open Sans', sans-serif;
         }
-        #navbar{
-            background-color: #ffdddd;
-            height: 400px;
+
+        h1{
+            color: #E9E6E1;
         }
 
         #content{
-            background-color: #808000;
+
             height: 400px;
         }
     </style>
 </head>
 <body>
 <div class="container">
-    <div class="jumbotron">
-        ONE COLUMN LAYOUT
-    </div>
+
     <div class="row">
         <div id="content" class="col-lg-12">
-            Content
             <?php
             //look out for a view file
-                if(!isset($view_file)){
-                    $view_file = "";
-                }
+            if(!isset($view_file)){
+                $view_file = "";
+            }
 
-                if(!isset($module)){
-                     $module = $this->uri->segment(1);
+            //if no module has been set which should be the case
+            //look in the first segment of the url and read that in as the module
+            if(!isset($module)){
+                $module = $this->uri->segment(1);
 
-                 }
+            }
 
-            //look out for a module
-                if(($view_file!="") && ($module!="")){
-                    $path = $module. "/".$view_file;
-                    $this->load->view($path);
-                }
+            //if both view file & module are present then genrate the url
+            if(($view_file!="") && ($module!="")){
 
-
-
-
+                //this code genrates users/login url
+                $path = $module. "/".$view_file;
+                $this->load->view($path);
+            }
             ?>
         </div>
     </div>

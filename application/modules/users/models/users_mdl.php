@@ -22,6 +22,23 @@ class Users_mdl extends CI_Model {
         return $table;
     }
 
+    function pword_check($username, $pword){
+
+        $table = $this->get_table();
+        $this->db->where('username', $username);
+        $this->db->where('pword', $pword);
+        $query=$this->db->get($table);
+        $num_rows = $query->num_rows();
+
+        if($num_rows > 0){
+            return true;
+        }
+        else{
+            return false;
+        }
+        return $num_rows;
+    }
+
 
 
     function get($order_by){

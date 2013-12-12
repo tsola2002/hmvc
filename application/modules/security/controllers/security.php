@@ -17,8 +17,7 @@ class Security extends MX_Controller {
         parent::__construct();
     }
 
-    function  make_hash(){
-        $password = "hello";
+    function  make_hash($password){
         $safe_pass = $this->super_hash($password);
         echo $safe_pass;
     }

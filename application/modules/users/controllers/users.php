@@ -17,32 +17,43 @@ class Users extends MX_Controller {
         parent::__construct();
     }
 
+    function _in_you_go($username){
+        //give users a session variable and send them to the admin
 
-    public function submit()
-    {
+    }
+
+     function submit(){
+
 
         $this->load->library('form_validation');
 
-        $this->form_validation->set_rules('username', 'username', 'required|max_length[30]|xss_clean');
-        $this->form_validation->set_rules('password', 'password', 'required|max_length[30]|xss_clean|callback_password_check');
+        $this->form_validation->set_rules('username', 'Username', 'required|max_length[30]|xss_clean');
+        $this->form_validation->set_rules('pword', 'Password', 'required|max_length[30]|xss_clean|callback_pword_check');
 
-
-        if ($this->form_validation->run() == FALSE)
+        if ($this->form_validation->run($this) == FALSE)
         {
+            //if validation is false run login function
+            //which should send us back to login form
             $this->login();
         }
         else
         {
-            echo "success";
-            die();
+            //
+            $this->_in_you_go($username);
         }
     }
 
-    public function password_check($str)
-    {
-        if ($str == 'test')
+    function pword_check($pword){
+        $username  = $this->input->post('username', TRUE);
+
+        $pword = Modules::run('security/make_hash', $pword);
+
+        $this->load->model('users_mdl');
+        $result = $this->users_mdl->pword_check($username, $pword);
+
+        if ($result == false)
         {
-            $this->form_validation->set_message('password_check', 'The %s field can not be the word "test"');
+            $this->form_validation->set_message('pword_check', 'You did not enter the correct username');
             return FALSE;
         }
         else
