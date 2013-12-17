@@ -17,14 +17,14 @@ class Security extends MX_Controller {
         parent::__construct();
     }
 
-    function  make_hash($password){
+  /*  function  make_hash($password){
         $safe_pass = $this->super_hash($password);
         echo $safe_pass;
-    }
+    }*/
 
-    function super_hash($password){
+   /* function super_hash($password){
         $new_pass = $password.="bla";
         return $new_pass;
-    }
+    }*/
 
 }

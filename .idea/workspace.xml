@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/MY_Form_validation.php" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\hmvc\application\modules\template\controllers\base_controller.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/template/views/admin.php" afterPath="$PROJECT_DIR$/application/modules/template/views/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/users/views/loginform.php" afterPath="$PROJECT_DIR$/application/modules/users/views/loginform.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/template/views/public_one_col.php" afterPath="$PROJECT_DIR$/application/modules/template/views/public_one_col.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/security/controllers/security.php" afterPath="$PROJECT_DIR$/application/modules/security/controllers/security.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/template/controllers/template.php" afterPath="$PROJECT_DIR$/application/modules/template/controllers/template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/users/controllers/users.php" afterPath="$PROJECT_DIR$/application/modules/users/controllers/users.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/users/models/users_mdl.php" afterPath="$PROJECT_DIR$/application/modules/users/models/users_mdl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -17,7 +11,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/test.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1380043582298" ignored="false" />
     <file path="/.htaccess" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1380048204598" ignored="false" />
-    <file path="/Dummy.txt" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386842616938" ignored="false" />
+    <file path="/Dummy.txt" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1387278979212" ignored="false" />
     <file path="/blog.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1385977907629" ignored="false" />
     <file path="/blog_m.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1380059214020" ignored="false" />
     <file path="/listing.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1380058955332" ignored="false" />
@@ -29,7 +23,7 @@
     <file path="/nofun.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1385982972125" ignored="false" />
     <file path="/template.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386602050483" ignored="false" />
     <file path="/one_col.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386071764282" ignored="false" />
-    <file path="/dummy.xml" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386604808912" ignored="false" />
+    <file path="/dummy.xml" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1387280238080" ignored="false" />
     <file path="/two_col.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386075202201" ignored="false" />
     <file path="/base_model.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386753482965" ignored="false" />
     <file path="/base_controller.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386753857606" ignored="false" />
@@ -37,9 +31,9 @@
     <file path="/form.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386241048965" ignored="false" />
     <file path="/admin.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386594545994" ignored="false" />
     <file path="/public_one_col.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386846358669" ignored="false" />
-    <file path="/users_mdl.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386849472066" ignored="false" />
-    <file path="/users.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386850609914" ignored="false" />
-    <file path="/loginform.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386848122373" ignored="false" />
+    <file path="/users_mdl.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1387289457905" ignored="false" />
+    <file path="/users.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1387289497420" ignored="false" />
+    <file path="/loginform.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1387280234689" ignored="false" />
     <file path="/MY_Form_validation.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386848752306" ignored="false" />
     <file path="/security.php" changelist="8ab9a9d8-57f9-4133-8fa0-c89c2fb0ef04" time="1386849975026" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,10 +55,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="users_mdl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/users/models/users_mdl.php">
+      <file leaf-file-name="loginform.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/users/views/loginform.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="25" selection-start="737" selection-end="737" vertical-scroll-proportion="-15.692307">
+            <state line="32" column="0" selection-start="464" selection-end="464" vertical-scroll-proportion="-10.230769">
               <folding />
             </state>
           </provider>
@@ -73,7 +67,7 @@
       <file leaf-file-name="users.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/modules/users/controllers/users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="25" selection-start="987" selection-end="987" vertical-scroll-proportion="1.1545668">
+            <state line="97" column="0" selection-start="2486" selection-end="2486" vertical-scroll-proportion="0.94603175">
               <folding />
             </state>
           </provider>
@@ -82,16 +76,16 @@
       <file leaf-file-name="security.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/security/controllers/security.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="33" selection-start="341" selection-end="341" vertical-scroll-proportion="-12.423077">
+            <state line="28" column="0" selection-start="541" selection-end="541" vertical-scroll-proportion="-10.153846">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MY_Form_validation.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/libraries/MY_Form_validation.php">
+      <file leaf-file-name="users_mdl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/users/models/users_mdl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="35" selection-start="322" selection-end="322" vertical-scroll-proportion="-3.9230769">
+            <state line="35" column="13" selection-start="713" selection-end="713" vertical-scroll-proportion="-7.8461537">
               <folding />
             </state>
           </provider>
@@ -131,20 +125,20 @@
         <option value="$PROJECT_DIR$/application/modules/template/views/admin.php" />
         <option value="$PROJECT_DIR$/application/modules/template/controllers/template.php" />
         <option value="$PROJECT_DIR$/application/modules/template/views/public_one_col.php" />
-        <option value="$PROJECT_DIR$/application/modules/users/views/loginform.php" />
         <option value="$PROJECT_DIR$/application/libraries/MY_Form_validation.php" />
-        <option value="$PROJECT_DIR$/application/modules/users/models/users_mdl.php" />
+        <option value="$PROJECT_DIR$/application/modules/users/views/loginform.php" />
         <option value="$PROJECT_DIR$/application/modules/security/controllers/security.php" />
+        <option value="$PROJECT_DIR$/application/modules/users/models/users_mdl.php" />
         <option value="$PROJECT_DIR$/application/modules/users/controllers/users.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-119" />
-    <option name="y" value="-11" />
-    <option name="width" value="746" />
-    <option name="height" value="786" />
+    <option name="x" value="16" />
+    <option name="y" value="-18" />
+    <option name="width" value="763" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -222,76 +216,6 @@
               <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hmvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hmvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hmvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hmvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hmvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hmvc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -338,6 +262,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hmvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hmvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -459,19 +401,24 @@
       <created>1386600532231</created>
       <updated>1386600532231</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="validation functionality properly work but still BUGGY">
+      <created>1386850733651</created>
+      <updated>1386850733651</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-119" y="-11" width="746" height="786" extended-state="0" />
+    <frame x="16" y="-18" width="763" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18957347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36850393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28947368" sideWeight="0.40600315" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28947368" sideWeight="0.81042653" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2981455" sideWeight="0.6314961" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -481,7 +428,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -529,7 +475,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="setting up the template module" />
+    <option name="LAST_COMMIT_MESSAGE" value="validation functionality properly work but still BUGGY" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -550,6 +496,7 @@
     <MESSAGE value="base models &amp; base controller implemented on the website for reuse" />
     <MESSAGE value="first CRUD insert functionality implemented using hmvc" />
     <MESSAGE value="setting up the template module" />
+    <MESSAGE value="validation functionality properly work but still BUGGY" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -589,9 +536,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/security/models/security_mdl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="25" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="25" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/autoload.php">
@@ -601,56 +546,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/template/views/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="58" selection-start="863" selection-end="863" vertical-scroll-proportion="-7.769231">
-          <folding />
-        </state>
+        <state line="40" column="58" selection-start="863" selection-end="863" vertical-scroll-proportion="-7.769231" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/template/controllers/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="3" selection-start="340" selection-end="340" vertical-scroll-proportion="0.6964286">
-          <folding />
-        </state>
+        <state line="20" column="3" selection-start="340" selection-end="340" vertical-scroll-proportion="0.6964286" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/template/views/public_one_col.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="27" selection-start="634" selection-end="634" vertical-scroll-proportion="0.5066964">
+        <state line="26" column="27" selection-start="634" selection-end="634" vertical-scroll-proportion="0.5066964" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/security/controllers/security.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="541" selection-end="541" vertical-scroll-proportion="-10.153846">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/users/views/loginform.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="30" selection-start="184" selection-end="184" vertical-scroll-proportion="-4.576923">
+        <state line="32" column="0" selection-start="464" selection-end="464" vertical-scroll-proportion="-10.230769">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/libraries/MY_Form_validation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="35" selection-start="322" selection-end="322" vertical-scroll-proportion="-3.9230769">
+        <state line="16" column="1" selection-start="330" selection-end="330" vertical-scroll-proportion="0.41463414">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/users/models/users_mdl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="25" selection-start="737" selection-end="737" vertical-scroll-proportion="-15.692307">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/security/controllers/security.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="33" selection-start="341" selection-end="341" vertical-scroll-proportion="-12.423077">
+        <state line="35" column="13" selection-start="713" selection-end="713" vertical-scroll-proportion="-7.8461537">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/users/controllers/users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="25" selection-start="987" selection-end="987" vertical-scroll-proportion="1.1545668">
+        <state line="97" column="0" selection-start="2486" selection-end="2486" vertical-scroll-proportion="0.94603175">
           <folding />
         </state>
       </provider>

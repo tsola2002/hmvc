@@ -17,10 +17,10 @@ class Users extends MX_Controller {
         parent::__construct();
     }
 
-    function _in_you_go($username){
+   /* function _in_you_go($username){
         //give users a session variable and send them to the admin
 
-    }
+    }*/
 
      function submit(){
 
@@ -39,21 +39,23 @@ class Users extends MX_Controller {
         else
         {
             //
-            $this->_in_you_go($username);
+            echo "success"; die();
+          //  $this->_in_you_go($username);
         }
     }
 
     function pword_check($pword){
+        //takes in put field
         $username  = $this->input->post('username', TRUE);
 
-        $pword = Modules::run('security/make_hash', $pword);
-
+      //  $pword = Modules::run('security/make_hash', $pword);
+        //load model
         $this->load->model('users_mdl');
         $result = $this->users_mdl->pword_check($username, $pword);
 
-        if ($result == false)
+        if ($result == FALSE)
         {
-            $this->form_validation->set_message('pword_check', 'You did not enter the correct username');
+            $this->form_validation->set_message('pword_check', 'You did not enter the correct username/password');
             return FALSE;
         }
         else

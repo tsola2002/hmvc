@@ -27,14 +27,14 @@ class Users_mdl extends CI_Model {
         $table = $this->get_table();
         $this->db->where('username', $username);
         $this->db->where('pword', $pword);
-        $query=$this->db->get($table);
+        $query = $this->db->get($table);
         $num_rows = $query->num_rows();
 
         if($num_rows > 0){
-            return true;
+            return TRUE;
         }
         else{
-            return false;
+            return FALSE;
         }
         return $num_rows;
     }
