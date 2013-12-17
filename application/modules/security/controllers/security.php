@@ -15,6 +15,7 @@ class Security extends MX_Controller {
 
     function __construct() {
         parent::__construct();
+        Modules::run('security/check_admin');
     }
 
     function  make_hash($password){
@@ -25,6 +26,15 @@ class Security extends MX_Controller {
     function super_hash($password){
         $new_pass = $password.="bla";
         return $new_pass;
+    }
+
+    function check_admin(){
+        $user_id  = $this->session->userdata('user_id');
+
+        if(!is_numeric($user_id)){
+            redirect(base_url());
+        }
+
     }
 
 }

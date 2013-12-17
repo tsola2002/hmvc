@@ -17,10 +17,23 @@ class Users extends MX_Controller {
         parent::__construct();
     }
 
-   /* function _in_you_go($username){
+    function _in_you_go($username){
         //give users a session variable and send them to the admin
+        $query =  $this->get_where_custom('username', $username);
+        foreach($query->result() as $row){
+            $user_id  = $row->id;
+        }
 
-    }*/
+
+
+        //makes session variable
+        $this->session->set_userdata('user_id', $user_id);
+
+        //echo "hello $user_id";
+
+        //send the users to
+        redirect('dashboard/home');
+    }
 
      function submit(){
 
@@ -38,9 +51,9 @@ class Users extends MX_Controller {
         }
         else
         {
-            //
-            echo "success"; die();
-          //  $this->_in_you_go($username);
+            $username = $this->input->post('username', TRUE);
+           // echo "success"; die();
+           $this->_in_you_go($username);
         }
     }
 
