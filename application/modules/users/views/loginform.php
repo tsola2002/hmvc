@@ -16,17 +16,33 @@
 echo validation_errors("<p>", "</p>");
 ?>
 
-<?php
-    echo form_open('users/submit');
+<div class="col-lg-4">
+    <?php $attributes = array('role' => 'form', 'id' => 'login'); ?>
+    <?php $form_label = array('class' => 'control-label');?>
+    <?php $form_input = array('class' => 'form-control', 'name' => 'username', 'id' => 'username', 'placeholder' => 'Enter Your Username'); ?>
+    <?php $form_password = array('class' => 'form-control', 'name' => 'pword', 'id' => 'password', 'placeholder' => 'Enter Your Password'); ?>
+    <?php $form_submit = array('name' => 'submit', 'value' => 'Submit', 'class' => 'btn btn-info'); ?>
+    <?php echo form_open('users/submit', $attributes); ?>
 
-    echo "Username";
-    echo form_input('username', '');
-    echo "<br />";
+    <div class="form-group">
+        <?php
+        echo form_label('username', 'username');
+        echo form_input($form_input);
+        ?>
 
-    echo "Password";
-    echo form_password('pword', '');
-    echo "<br />";
+    </div>
 
-    echo form_submit('submit', 'Submit');
-    echo form_close();
-?>
+    <div class="form-group">
+        <?php
+        echo form_label('password', 'password');
+        echo form_password($form_password);
+        ?>
+    </div>
+
+    <?php echo form_submit($form_submit); ?>
+
+    <?php echo form_close(); ?>
+
+
+</div>
+

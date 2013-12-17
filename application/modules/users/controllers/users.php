@@ -48,7 +48,7 @@ class Users extends MX_Controller {
         //takes in put field
         $username  = $this->input->post('username', TRUE);
 
-      //  $pword = Modules::run('security/make_hash', $pword);
+        $pword = Modules::run('security/make_hash', $pword);
         //load model
         $this->load->model('users_mdl');
         $result = $this->users_mdl->pword_check($username, $pword);
