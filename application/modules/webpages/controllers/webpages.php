@@ -28,7 +28,82 @@ class Webpages extends MX_Controller {
         $this->template->admin($data);
     }
 
+    function submit(){
+        $this->load->library('form_validation');
 
+        $this->form_validation->set_rules('page_headline', 'Page Headline', 'required|xss_clean');
+        $this->form_validation->set_rules('page_content', 'Page Content', 'required|xss_clean');
+
+        if ($this->form_validation->run($this) == FALSE)
+        {
+            //if validation is false run create function
+            //which should send us back to login form
+            $this->create();
+        }
+        else
+        {
+            $data = $this->get_data_from_post();
+            $data['page_url'] = url_title($data['page_headline']);
+
+            $update_id =  $this->uri->segment(3);
+            if(is_numeric($update_id)){
+                $this->_update($update_id, $data);
+            } else{
+                $this->_insert($data);
+            }
+            redirect('webpages/manage');
+        }
+    }
+
+    function get_data_from_post(){
+        $data['page_headline'] = $this->input->post('page_headline', TRUE);
+        $data['page_title'] = $this->input->post('page_title', TRUE);
+        $data['keywords'] = $this->input->post('keywords', TRUE);
+        $data['description'] = $this->input->post('description', TRUE);
+        $data['page_content'] = $this->input->post('page_content', TRUE);
+        return $data;
+    }
+
+    function get_data_from_db($update_id){
+        $query = $this->get_where($update_id);
+        foreach($query->result() as $row){
+            $data['page_headline'] = $row->page_headline;
+            $data['page_title'] = $row->page_title;
+            $data['keywords'] = $row->keywords;
+            $data['description'] = $row->description;
+            $data['page_content'] = $row->page_content;
+        }
+
+        if(!isset($data)){
+            $data = "";
+        }
+        return $data;
+    }
+
+    function create(){
+
+        $update_id = $this->uri->segment(3);
+        $submit = $this->input->post('submit', TRUE);
+
+            if($submit=="Submit"){
+                $data = $this->get_data_from_post();
+            }else{
+                if(is_numeric($update_id)){
+                    $data = $this->get_data_from_db($update_id);
+                }
+            }
+
+            if(!isset($data)){
+                $data = $this->get_data_from_post();
+            }
+
+
+        $data['update_id'] = $update_id;
+
+        $data['view_file'] = "create";
+        $this->load->module('template');
+        $this->template->admin($data);
+    }
 
     function get($order_by){
         $this->load->model('webpages_mdl');

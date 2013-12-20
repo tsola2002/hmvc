@@ -13,11 +13,11 @@
 <h2>Content Management System</h2>
 
 <?php
-    echo anchor('webpage/create', 'Create New Page');
+    echo anchor('webpages/create', 'Create New Page');
 ?>
 
 <table class="table table-bordered">
-    <tr><th>Head1</th><th>Head2</th><th>Head3</th></tr>
+    <tr><th>PAGE HEADLINE</th><th>EDIT</th><th>DELETE</th></tr>
     <?php
         foreach($query->result() as $row) {
 
