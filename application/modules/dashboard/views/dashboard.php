@@ -2,13 +2,14 @@
 /**
  *
  * Package: hmvc
- * Filename: one_col.php
+ * Filename: dashboard.php
  * Author: solidstunna101
- * Date: 03/12/13
- * Time: 11:33
+ * Date: 19/12/13
+ * Time: 19:12
  *
  */
 ?>
+
 <!doctype html>
 <html lang="en-US">
 <head>
@@ -38,27 +39,15 @@
 
     <div class="row">
         <div id="content" class="col-lg-12">
+          <h2>welcome to the dashboard</h2>
+            <p>Please choose from the following options</p>
+           <ul>
             <?php
-            //look out for a view file
-            if(!isset($view_file)){
-                $view_file = "";
-            }
-
-            //if no module has been set which should be the case
-            //look in the first segment of the url and read that in as the module
-            if(!isset($module)){
-                $module = $this->uri->segment(1);
-
-            }
-
-            //if both view file & module are present then genrate the url
-            if(($view_file!="") && ($module!="")){
-
-                //this code generates users/login url
-                $path = $module. "/".$view_file;
-                $this->load->view($path);
-            }
+            echo anchor('webpages/manage','<li>Content Management System</li>');
+            echo anchor('','<li>Update Top Naviation</li>');
+            echo anchor('','<li>Sign Out</li>');
             ?>
+           </ul>
         </div>
     </div>
 </div>

@@ -9,18 +9,19 @@
  *
  */
 
-class Dashboard extends MX_Controller {
+class Custompage extends MX_Controller {
 
 
 
     function __construct() {
         parent::__construct();
-        Modules::run('security/check_admin');
     }
 
-   function home(){
-      // echo "welcome to the dashboard";
-       $this->load->view('dashboard');
+   function index(){
+       //echo "custom page";
+       $this->load->module('template');
+       $this->template->public_one_col($data);
+
    }
 
 }

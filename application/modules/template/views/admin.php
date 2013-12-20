@@ -35,12 +35,31 @@
 <div class="container">
 
     <div class="row">
-        <div id="content" class="col-lg-3">
-            Content
+        <div id="content" class="col-lg-12">
+            <h2>Admin Panel</h2>
+            <?php
+            //look out for a view file
+            if(!isset($view_file)){
+                $view_file = "";
+            }
+
+            //if no module has been set which should be the case
+            //look in the first segment of the url and read that in as the module
+            if(!isset($module)){
+                $module = $this->uri->segment(1);
+
+            }
+
+            //if both view file & module are present then genrate the url
+            if(($view_file!="") && ($module!="")){
+
+                //this code generates users/login url
+                $path = $module. "/".$view_file;
+                $this->load->view($path);
+            }
+            ?>
         </div>
-        <div id="content" class=" col-lg-offset-1 col-lg-8">
-            Content
-        </div>
+
     </div>
 </div>
 </body>
