@@ -13,7 +13,7 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    <title>One col page</title>
+    <title><?php echo $page_title; ?></title>
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
     <style type="text/css">
@@ -57,6 +57,8 @@
                 //this code generates users/login url
                 $path = $module. "/".$view_file;
                 $this->load->view($path);
+            }else{
+                echo nl2br($page_content);
             }
             ?>
         </div>

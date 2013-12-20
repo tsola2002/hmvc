@@ -47,6 +47,10 @@ class Webpages extends MX_Controller {
 
             $update_id =  $this->uri->segment(3);
             if(is_numeric($update_id)){
+
+                  if(($update_id==23) || ($update_id==24) || ($update_id==25)){
+                      unset($data['page_url']);
+                  }
                 $this->_update($update_id, $data);
             } else{
                 $this->_insert($data);

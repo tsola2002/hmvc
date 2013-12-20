@@ -29,7 +29,14 @@
     <tr>
         <td><?php echo $page_headline; ?></td>
         <td><?php echo anchor($edit_url, 'Edit'); ?></td>
-        <td><?php echo anchor($delete_url, 'Delete'); ?></td></tr>
+        <td><?php
+            $page_url = $row->page_url;
+            if(($page_url=="homepage") || ($page_url=="contactus") || ($page_url=="thankyou")){
+                echo "-";
+            } else{
+                echo anchor($delete_url, 'Delete');
+            }
+             ?></td></tr>
     <tr class="warning">...</tr>
     <tr class="danger">...</tr>
     <?php

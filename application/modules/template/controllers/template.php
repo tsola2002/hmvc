@@ -18,6 +18,18 @@ class Template extends MX_Controller {
     }
 
     function public_one_col($data){
+
+        if(isset($data['page_title'])){
+            $data['page_title'] = "Default Page Title";
+        }
+
+        if(isset($data['keywords'])){
+            $data['keywords'] = "some, cool, keywords";
+        }
+
+        if(isset($data['description'])){
+            $data['description'] = "some, cool, keywords";
+        }
         //$data['variable'] = "...";
         $this->load->view('public_one_col', $data);
     }
